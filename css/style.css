@@ -12,16 +12,24 @@ header {
     box-sizing: border-box;
     color: white;
 }
-nav {
+nav{
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+    box-sizing: border-box;
 }
 
+nav > h2 {
+    margin: 0; 
+}
 
-nav > ul{
+nav > ul {
     display: flex;
     justify-content: flex-end;
-    gap: 50px;
+    gap: 30px; 
     margin: 0;
     padding: 0;
     color: white;
@@ -31,12 +39,10 @@ nav > ul > li{
     list-style-type: none;
 }
 
-nav > ul > li > a {
+nav > ul>li>a {
     color: white;
     text-decoration: none;
 }
-
-
 
 
 .info-banner img {
@@ -45,11 +51,88 @@ nav > ul > li > a {
 
 }
 
-footer {
+.container {
+    margin-left: 20px;
+}
+
+
+nav > ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+.featured{
+    display: flex;
+}
+.featured-title{
+    font-size: xx-large;
+    margin-left: 20px;
+}
+
+.featured-text{
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+.lenta {
+    font-size: xx-large;
+}
+.section-title{
+    font-size: xx-large;
+}
+
+.lenta-choice>a {
+    text-decoration: none;    
+    color: black;             
+    background-color: rgba(0, 0, 0, 0.485); 
+    padding: 5px 10px;      
+    border-radius: 4px;     
+    display: inline-block;      
+}
+
+.card-list{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card{
+    display: flex;
+}
+
+
+.card-title{
+    margin-left: 20px;
+    font-size: xx-large;
+}
+
+.card-text{
+    margin-left: 20px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.485);
+}
+
+footer{
     width: 100%;
     height: auto;
     background-color: rgb(19, 30, 58);
     padding: 30px;
     box-sizing: border-box;
     color: white;
+
 }
+
+footer> nav > h2{
+    text-align: center;
+}
+
+footer> nav {
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;    
+    gap: 15px;           
+}
+
+footer>nav > ul {
+    justify-content: center; 
+    padding: 0;
+}
+
