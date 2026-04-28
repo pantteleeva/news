@@ -188,4 +188,41 @@ p{
     
 }
 
+/* комменты */
+
+.comment-container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.title-comment {
+    font-size: 36px;
+    margin-left: 20px;
+    padding: 15px 20px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.author {
+    font-size: 36px;
+    margin-left: 20px;
+    padding: 15px 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.name-comment{
+    text-align: left;
+    font-size: 36px;
+    margin-left: 40px;
+    background-color: rgba(0, 0, 0, 0.43);
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
 
