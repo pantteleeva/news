@@ -225,4 +225,17 @@ p{
 
 }
 
+.add-comment-label{
+    text-align: left;
+    font-size: 36px;
+    margin-left: 40px;
+    
+}
 
+.add-comment{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.43);
+    border-radius: 20px;
+    padding: 15px;
+
+}
