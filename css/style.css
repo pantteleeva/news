@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(19, 30, 58);
+    padding: 30px;
+    box-sizing: border-box;
+    color: white;
+}
+nav {
+    width: 100%;
+    height: auto;
+}
+
+
+nav > ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav > ul > li{
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.info-banner img {
+    width: 100%;
+    height: auto;
+
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(19, 30, 58);
+    padding: 30px;
+    box-sizing: border-box;
+    color: white;
+}
