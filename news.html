@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Вход и подписка</title>
-  <link rel="stylesheet" href="style2.css">
+  <title>Войти</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -31,53 +30,63 @@
       </div>
     </div>
 
-    <div class="card">
-      <div class="login-tabs">
-        <span class="tab-static active-tab">Вход</span>
-        <span class="tab-static">Регистрация</span>
+
+    <div class = "content-news">
+
+      <div class="login-block">
+       <h2 class="login-title">Войти</h2>
+
+      <div class="login">
+        <button class="vxod">Вход</button>
+        <button class="reg">Регистрация</button>
       </div>
-      <form action="#">
-        <div class="input-group">
-          <input type="email" placeholder="Email">
-        </div>
-        <div class="input-group">
-          <input type="password" placeholder="Пароль">
-        </div>
-        <button type="button" class="btn-primary login-btn">Войти</button>
-        <div class="forgot-link">Забыли пароль?</div>
-      </form>
+
+      <div class="form">
+        <input type="email" class="input-field" placeholder="Email"/>
+      </div>
+      <div class="form-group">
+        <input type="password" class="input-field" placeholder="Пароль" />
+      </div>
+
+      <button class="btn-login">Войти</button>
     </div>
 
-    <div class="card">
-      <div class="section-title">Премиум подписка</div>
-      <ul class="premium-features">
-        <li>Ежемесячные отчёты – получайте подборку самых полезных материалов по вашим темам.</li>
-        <li>Приоритетная поддержка – вопросы решаются в течение часа.</li>
-        <li>Без рекламы – ничего не отвлекает от чтения.</li>
-      </ul>
-      <button type="button" class="btn-primary premium-btn">Оформить подписку от 299 руб.</button>
+
+    <div class = "prem">
+        <h2>Премиум подписка</h2>
+        <ul>
+          <li> Ежемесячные отчёты – получайте подборку самых полезных материалов по вашим темам.</li>
+          <li>Приоритетная поддержка – вопросы решаются в течение часа.</li>
+          <li>Без рекламы – ничего не отвлекает от чтения.</li>
+        </ul>
+      <button class = "btn-3">Оформить подписку от 299 руб.</button>
     </div>
 
-    <div class="footer">
-      <div class="footer-links">
-        <a href="news.html">NEWS</a>
-        <a href="profile.html">Профиль</a>
-        <a href="#">Войти</a>
-        <a href="#">Популярное</a>
-      </div>
-    </div>
   </div>
 
-  <footer>
-    <nav>
-      <h2>NEWS</h2>
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="news.html">Войти</a></li>
-        <li><a href="profile.html">Профиль</a></li>
-      </ul>
-    </nav>
-  </footer>
+    </main>
+
+
+    <footer>
+        <nav>
+            <h2>NEWS</h2>
+            <ul>
+                <li>
+                    <a href="index.html"> Главная</a>
+
+                </li>
+                <li>
+                    <a href="news.html"> Войти</a>
+                </li>
+                <li>
+                    <a href="profile.html">Профиль</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+
+
 
 </body>
 </html>

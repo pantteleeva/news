@@ -155,7 +155,7 @@ hr {
 }
 
 .saved-list {
-  width: fit-content
+  width: fit-content;
   list-style-type: disc;
   list-style-position: inside;
   padding-left: 20px;
