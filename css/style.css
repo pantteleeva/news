@@ -28,8 +28,7 @@ nav > h2 {
 
 nav > ul {
     display: flex;
-    justify-content: flex-end;
-    gap: 30px; 
+    gap: 50px; 
     margin: 0;
     padding: 0;
     color: white;
@@ -89,6 +88,7 @@ nav > ul>li>a {
     display: inline-block;      
 }
 
+
 .card-list{
     margin-top: 10px;
     margin-bottom: 20px;
@@ -144,15 +144,16 @@ footer>nav > ul {
 
 h3{
     font-size: 64px;
+    margin-top: 40px;
     margin-left: 40px;
-    margin-bottom: 0px; 
+    margin-bottom: 20px; 
 }
 
 p{ 
     font-size: 36px;
     margin-left: 40px;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 14px;
 }
 
 
@@ -177,54 +178,56 @@ p{
 
 
 .text {
-    display: flex;
-    justify-content: center;
-    padding: 0 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    display: block; 
+    margin-left: 58px;
+    margin-right: 57px;
+    margin-top: 47px;
+    margin-bottom: 47px;
+    
     font-size: 36px;
     line-height: 1.6;
     text-align: justify;
-    
 }
 
 /* комменты */
 
-.comment-container{
-    width: 100%;
+.comment-container {
+    display: block;
+    margin-left: 58px;
+    margin-right: 57px;
+    width: auto;
     height: auto;
-    margin: 0 auto;
     border-radius: 20px;
-    text-align: center;
 }
+
 
 .title-comment {
     font-size: 36px;
-    margin-left: 20px;
-    padding: 15px 20px;
-    text-align: left;
     font-weight: bold;
-
+    text-align: left;
+    margin-left: 0; 
+    padding: 15px 0;
 }
 
 .author {
     font-size: 36px;
-    margin-left: 20px;
-    padding: 15px 20px;
-    text-align: left;
     font-weight: bold;
+    text-align: left;
+    margin-left: 0; 
+    padding: 15px 0;
 }
 
+
 .name-comment{
+
     text-align: left;
     font-size: 36px;
-    margin-left: 40px;
     background-color: rgba(0, 0, 0, 0.43);
     border-radius: 20px;
     padding: 15px;
-    margin-bottom: 20px;
-    margin-right: 40px;
-
+    margin-bottom: 74px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .add-comment-label{
@@ -236,13 +239,18 @@ p{
 }
 
 .add-comment{
+
+    margin-top: 111px;
     text-align: left;
+    font-size: 36px;
     background-color: rgba(0, 0, 0, 0.43);
     border-radius: 20px;
     padding: 15px;
-    margin-bottom: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-bottom: 41px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;   
+    flex-direction: column;
 
 }
 
@@ -256,5 +264,18 @@ p{
     color: rgba(0, 0, 0, 0.43);
     border-radius: 20px;
 
+}
+
+.send-button {
+    color: white;
+    background-color: rgb(19, 30, 58);
+    font-size: 36px;
+    margin-top: 28px;
+    align-self: flex-end;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;  
+    cursor: pointer;
+    
 }
 
