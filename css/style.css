@@ -47,6 +47,10 @@ nav > ul>li>a {
     font-size: 24px;
 }
 
+nav > ul>li>a:hover{
+    color: rgba(255, 255, 255, 0.539);
+}
+
 /*баннер с кнопкоф*/
 .info-banner {
     position: relative;
@@ -71,6 +75,9 @@ nav > ul>li>a {
     border-radius: 20px;
     text-decoration: none;
     white-space: nowrap;
+}
+.banner-btn:hover{
+    color: rgba(255, 255, 255, 0.498);
 }
 
 
@@ -119,6 +126,10 @@ nav > ul>li>a {
     border-radius: 4px;     
     display: inline-block;  
     margin-bottom: 35px;   
+}
+
+.lenta-choice>a:hover {
+    color:rgba(255, 255, 255, 0.498);
 }
 
 /*лента новостей*/
@@ -314,6 +325,10 @@ p{
     
 }
 
+.send-button:hover {
+    color:rgba(255, 255, 255, 0.498);
+}
+
 /* страница входа*/
 
 .banner-btn2 {
@@ -328,6 +343,10 @@ p{
     text-decoration: none;
     white-space: nowrap;
 }
+.banner-btn2:hover {
+    color:rgba(255, 255, 255, 0.498);
+}
+
 
 .content-news{
     display: flex;
@@ -365,6 +384,10 @@ ul>li{
     display: block;
     margin-left: 45px;
     margin-right: 45px;
+    border: none;
+}
+.btn-3:hover {
+    color:rgba(255, 255, 255, 0.498);
 }
 
 /*блок войти*/
@@ -399,6 +422,9 @@ ul>li{
     padding: 15px 35px;
     cursor: pointer;
 }
+.btn-login:hover {
+    color:rgba(255, 255, 255, 0.498);
+}
 
 .login-title{
     font-size: 48px;
@@ -415,6 +441,10 @@ ul>li{
     padding: 10px 20px;
     transition: 0.3s;  
 }
+
+.vxod:hover {
+    color:rgba(0, 0, 0, 0.492);
+}
 .reg{
     font-size: 36px;
     background: none;
@@ -423,4 +453,14 @@ ul>li{
     color: black;
     padding: 10px 20px;
     transition: 0.3s;  
+}
+
+.reg:hover {
+    color:rgba(0, 0, 0, 0.492);
+}
+
+.login{
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid black;
 }
