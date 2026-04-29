@@ -66,8 +66,8 @@ nav > ul>li>a:hover{
 
 .banner-btn {
     position: absolute; 
-    top: 700px;
-    left: 440px;
+    top: 550px;
+    left: 350px;
     color: white;
     background-color: red;
     padding: 15px 50px;
@@ -348,19 +348,21 @@ p{
 }
 
 
-.content-news{
-    display: flex;
+.content-news {
+    position: relative;
+    height: 1000px;  
 }
 
-.prem{
+.prem {
+    position: absolute;
+    left: 850px;
+    top: 70px;
     width: 590px;
     height: 673px;
+    padding: 20px;
+    box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.375);
     border-radius: 20px;
-    padding: 10px;
-    margin-top: 120px;
-    margin-bottom: 236px;
-    margin-right: 43px;
 }
 
 .prem > h2{
@@ -370,7 +372,7 @@ p{
 
 }
 ul>li{
-    font-size: 32px;
+    font-size: 28px;
     line-height: 2;
 }
 .btn-3{
@@ -393,13 +395,13 @@ ul>li{
 /*блок войти*/
 .content-news{
     display: flex;
-    justify-content: center;
-    gap: 353px; 
+
 }
-.login-block{
-    margin-top: 166px;
-    margin-bottom: 348px;
-    margin-left: 10px;
+
+.login-block {
+    position: absolute;
+    left: 84px;
+    top: 60px;
 }
 
 .input-field{
