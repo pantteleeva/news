@@ -551,73 +551,111 @@ ul>li{
     }
 
     /*стр статья*/
-    h3 {
+    .logo-article h3 {
         font-size: 28px;
         margin: 20px 16px 10px 16px;
+        word-break: break-word;
     }
 
-    .date {
-        font-size: 16px;
-        margin-left: 16px;
-        margin-bottom: 20px;
-        margin-top: 5px;
-    }
-    p{
-       font-size: 22px;
-        margin-left: 16px;
-        margin-bottom: 20px; 
-    }
-
-    .photo-article{
-        padding: 0 16px;
-    }
-    .text{
+    .logo-article p {
         font-size: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        margin-top: 5px;
+        margin: 5px 16px;
+    }
+
+    .logo-article .date {
+        font-size: 14px;
+        margin: 0 16px 20px 16px;
+    }
+
+    .photo-article {
+        padding: 0 16px;
+        margin: 0;
+    }
+
+    .photo-article img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .text {
+        margin: 20px 16px;
+        padding: 0;
+        font-size: 18px;
+        line-height: 1.5;
+        width: auto;
+        text-align: left;
     }
 
     .comment-container {
-        margin-left: 16px;
-        margin-right: 16px;
+        margin: 0 16px 30px 16px;
         width: auto;
-    }
-    .title-comment{
-        margin-top: 15px;
-        font-size: 18px;
-    }
-    .author{
-        margin-top: 5px;
-        font-size: 18px;
+        box-sizing: border-box;
     }
 
-    .name-comment{
-        font-size: 16px;
-        padding: 12px;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .add-comment{
-        margin-top: 20px;
-        font-size: 16px;
-        padding: 12px;
-
-    }
-    .input-comment{
-        padding: 12px;
-        font-size: 16px;
-    }
-    .add-comment-label{
+    .title-comment {
         font-size: 24px;
-
+        margin: 0 0 15px 0;
+        padding: 0;
     }
-    .send-button{
+
+    .comment {
+        margin-bottom: 20px;
+    }
+
+    .author {
+        font-size: 18px;
+        margin: 0 0 5px 0;
+        font-weight: bold;
+    }
+
+    .name-comment {
         font-size: 16px;
+        padding: 12px;
+        margin: 0;
+        border-radius: 20px;
+        word-break: break-word;
+    }
+
+        .add-comment {
+        margin: 30px 0 20px 0;
+        padding: 12px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .add-comment-label {
+        font-size: 20px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .input-comment {
+        font-size: 16px;
+        padding: 12px;
+        height: 100px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .send-button {
+        font-size: 18px;
+        padding: 8px 20px;
+        margin-top: 15px;
+    }
+
+    /*страница вход
+    .content-news{
+        flex-direction: column;
 
     }
+    .banner-btn2{
+        font-size: 9px;
+        padding: 10px 20px;
+    }*/
+
+
+
 
 
 
