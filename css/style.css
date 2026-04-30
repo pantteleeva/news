@@ -550,5 +550,75 @@ ul>li{
         color: rgba(0, 0, 0, 0.6);
     }
 
+    /*стр статья*/
+    h3 {
+        font-size: 28px;
+        margin: 20px 16px 10px 16px;
+    }
+
+    .date {
+        font-size: 16px;
+        margin-left: 16px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    p{
+       font-size: 22px;
+        margin-left: 16px;
+        margin-bottom: 20px; 
+    }
+
+    .photo-article{
+        padding: 0 16px;
+    }
+    .text{
+        font-size: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    .comment-container {
+        margin-left: 16px;
+        margin-right: 16px;
+        width: auto;
+    }
+    .title-comment{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .author{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    .name-comment{
+        font-size: 16px;
+        padding: 12px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .add-comment{
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 12px;
+
+    }
+    .input-comment{
+        padding: 12px;
+        font-size: 16px;
+    }
+    .add-comment-label{
+        font-size: 24px;
+
+    }
+    .send-button{
+        font-size: 16px;
+
+    }
+
+
 
 }
