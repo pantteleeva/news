@@ -64,22 +64,6 @@ nav > ul>li>a:hover{
     display: block;
 }
 
-.banner-btn {
-    position: absolute; 
-    top: 550px;
-    left: 350px;
-    color: white;
-    background-color: red;
-    padding: 15px 50px;
-    font-size: 20px;
-    border-radius: 20px;
-    text-decoration: none;
-    white-space: nowrap;
-}
-.banner-btn:hover{
-    color: rgba(255, 255, 255, 0.498);
-}
-
 
 /*контент на стр*/
 .container {
@@ -97,6 +81,10 @@ nav > ul>li>a {
     color: white;
     text-decoration: none;
 }
+nav > ul>li>a:hover{
+    color: rgba(0, 0, 0, 0.500);
+}
+
 /*главная новость*/ 
 .featured{
     display: flex;
@@ -465,4 +453,102 @@ ul>li{
     display: flex;
     gap: 20px;
     border-bottom: 2px solid black;
+}
+
+@media (max-width: 720px){
+    /*первая стр*/
+    header {
+        padding: 15px;
+    }
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+    }
+    nav>h2 {
+        font-size: 28px;
+        margin: 0;
+    }
+    nav>ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    nav>ul>li>a{
+        font-size: 18px;
+    }
+
+    .container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .section-title {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    .featured{
+        flex-direction: column;
+    }
+
+    .featured-img>img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .featured-title {
+        font-size: 24px;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .featured-text {
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .lenta {
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .lenta-choice > a {
+        font-size: 14px;
+        padding: 5px 12px;
+        margin-bottom: 20px;
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .card-list {
+        margin-bottom: 40px;
+    }
+
+    .card {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .card-img >img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .card-title {
+        font-size: 22px;
+        margin-left: 0;
+        margin-top: 12px;
+    }
+
+    .card-text {
+        font-size: 16px;
+        margin-left: 0;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+
 }
