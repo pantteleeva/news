@@ -644,19 +644,117 @@ ul>li{
         margin-top: 15px;
     }
 
-    /*страница вход
-    .content-news{
+    /*страница вход*/
+    .content-news {
         flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+
+    .login-block{
+        position: static;
+        width: 100%;
+        margin: 0;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .prem {
+        position: static;
+        width: 90%;
+        margin: 10px 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+        justify-content: center;
+        
+    }
+
+    .login-title {
+        font-size: 32px;
+        text-align: center;
+        margin: 20px 0 10px;
+    }
+
+    .login {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .vxod{
+        font-size: 24px;
+        padding: 8px 20px;
+    }
+
+    .reg{
+        font-size: 24px;
+        padding: 8px 20px;
+    }
+
+    .input-field{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .btn-3 {
+        width: 85%;
+        box-sizing: border-box;
+        font-size: 15px;
+        padding: 25px;
+        margin-top: 10px;
+        text-align: center;
+        margin-right: 150px;
+        
+    }
+    .btn-login{
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 24px;
+        padding: 12px;
+        margin-top: 10px;
+        
+    }
+
+    .input-field {
+        font-size: 18px;
+        padding: 12px 16px;
+        margin: 10px 0;
+    }
+
+    .prem>h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+
+    .info-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-banner>img {
+        width: 100%;
+        height: auto;
+    }
+    ul>li{
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .banner-btn2{
+        top: 50px;
+        left: 12px;
+        font-size: 9px;
+        padding: 5px 15px;
+
 
     }
-    .banner-btn2{
-        font-size: 9px;
-        padding: 10px 20px;
-    }*/
-
-
-
-
+    
 
 
 }
